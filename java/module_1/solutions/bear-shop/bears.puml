@@ -1,0 +1,56 @@
+@startuml 
+class com.mindera.mindswap.bears.Bear{
+- int energy
+- java.lang.String type
+- boolean talkingMode
++ void Bear (String )
++ void talk ()
+- void checkEnergyLevel ()
++ void loseEnergy ()
++ boolean canTalk ()
++ void turnOffTalkingMode ()
++ int getEnergy ()
++ java.lang.String toString ()
++ void turnOnTalkingMode ()
++ void recharge ()
+}
+class com.mindera.mindswap.bears.BearTypes{
++ java.lang.String SIMPLE_BEAR
++ java.lang.String CRANKY_BEAR
++ java.lang.String DRUNK_BEAR
+}
+class com.mindera.mindswap.bears.DrunkBear extends com.mindera.mindswap.bears.Bear{
+- double FALL_ASLEEP_PROBABILITY
+- boolean asleep
+- int energy
+- java.lang.String type
+- boolean talkingMode
++ void DrunkBear ()
++ void talk ()
+- void snore ()
++ void recharge ()
+}
+class com.mindera.mindswap.bears.CrankyBear extends com.mindera.mindswap.bears.Bear{
+- boolean singingAbility
+- int energy
+- java.lang.String type
+- boolean talkingMode
++ void CrankyBear ()
++ void talk ()
++ void sing ()
+}
+class com.mindera.mindswap.bears.SimpleBear extends com.mindera.mindswap.bears.Bear{
+- int energy
+- java.lang.String type
+- boolean talkingMode
++ void SimpleBear ()
+}
+class com.mindera.mindswap.Main{
++ void main (String[] )
+}
+class com.mindera.mindswap.Shop{
+- int bearsCreated
++ com.mindera.mindswap.bears.Bear createBear ()
++ boolean compare (Shop )
+}
+@enduml 

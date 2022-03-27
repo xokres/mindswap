@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"academy.mindswap"},{"l":"All Packages","u":"allpackages-index.html"}];updateSearchResults();

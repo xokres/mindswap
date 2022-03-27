@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"academy.mindswap","l":"DynamicObjectArray"},{"p":"academy.mindswap","l":"Main"},{"p":"academy.mindswap","l":"Main2"}];updateSearchResults();
